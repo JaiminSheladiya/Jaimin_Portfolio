@@ -92,24 +92,24 @@ export const AboutLeft = styled(motion.div)`
     justify-self: flex-start;
     img {
       width: 90%;
-      aspect-ratio: 2/1.3;
+      // aspect-ratio: 2/1.3;
     }
   }
   @media ${device.laptop} {
     img {
-      aspect-ratio: 2/1.5;
+      aspect-ratio: 1/1;
     }
   }
 
   @media ${device.tablet} {
     img {
-      aspect-ratio: 2/1;
+      aspect-ratio: 1/1;
     }
   }
   @media ${device.mobileL} {
     width:100%;
     img {
-      aspect-ratio: 2/1.7;
+      aspect-ratio: 1/1;
       width: 100%;
     }
   }

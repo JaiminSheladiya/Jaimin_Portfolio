@@ -2,7 +2,9 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import { Container, Wrapper, Heading, Work } from "./Project.style";
 import Farfetch from "../../Assets/FarFetch.png";
-import Uboric from "../../Assets/Uboric.png";
+import TrackingTime from "../../Assets/TrackingTime.png";
+import {FaHtml5 ,FaCss3Alt } from 'react-icons/fa'
+import {SiJavascript} from 'react-icons/si' 
 const stagger = {
   show: {
     transition: {
@@ -95,13 +97,19 @@ const Project = () => {
             title='Farfetch clone'
             src={Farfetch}
             link='https://github.com/Sumit-Gangwar/Farfetch-Project'
-          />
+            link2='https://peaceful-stroopwafel-aba1de.netlify.app/'
+            desc='This is an e-commerce website clone that we made during the construct week at Masai School. It was completed within 5 days. We created a good responsive UI. Fore more go to GitHub.'
+            tech={['HTML' , 'CSS' , 'JavaScript' ]}
+         />
           <ProjectCard
             variant={imageVariant}
-            title='Uboric clone'
-            src={Uboric}
-            link='https://github.com/JaiminSheladiya/wiggly-tank-2807'
-          />
+            title='Tracking Time clone'
+            src={TrackingTime}
+            link='https://github.com/Randhir200/expert-hand-9078'
+            link2='https://time-tracking-clone.netlify.app/'
+            desc='This is an time tracking website clone that we made during the construct week at Masai School. You can put your daily tasks to do and also you can track your tasks by the website.. Fore more go to GitHub.'
+            tech={['React' , 'Redux' , 'Chakra-UI']}
+        />
           {/* <ProjectCard variant={imageVariant} />
           <ProjectCard variant={imageVariant} /> */}
         </Work>

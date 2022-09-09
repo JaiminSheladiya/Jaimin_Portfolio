@@ -161,7 +161,8 @@ export const Card = styled(motion.div)`
         outline:none;
         border:none;
         text-decoration:none;
-        background-color:white;
+        background-color:#ffffff;
+        opacity:0.5;
         font-weight:600;
       }
 

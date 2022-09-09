@@ -68,7 +68,7 @@ const About = () => {
                 and backend development. I have a passion for making beautiful
                 interfaces with excellent usability.
               </p>
-              <p>
+               <p>
                 currently i'm Learning full-stack web developement from Masai school , Banglore, India.
               </p>
             </div>

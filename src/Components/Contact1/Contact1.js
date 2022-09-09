@@ -16,7 +16,7 @@ const Contact1 = () => {
             <div className='rightDesc'>
               <p>Share your excitement with Me.</p>
               <div>
-                <a  href='mailto:jaimins365635@gmail.com?subject=Regarding Contact'>
+                <a target='_blank'  href='mailto:jaimins365635@gmail.com?subject=Regarding Contact'>
                   jaimins365635@gmail.com
                 </a>
                
