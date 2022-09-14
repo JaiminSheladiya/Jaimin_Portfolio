@@ -3,10 +3,9 @@ import styled from "styled-components";
 import { device } from "../../responsive/device";
 export const Container = styled.div`
   width: 100vw;
-  // height: 40vh;
-  height: 70vh;
+  height: auto;
   // padding: 4rem 0 4rem 0;
-  overflow: hidden;
+  overflow: hidden; 
 `;
 export const Wrapper = styled(motion.div)`
   display: flex;
@@ -114,6 +113,7 @@ export const Work = styled(motion.div)`
 export const Card = styled(motion.div)` 
     width:max(400px,40%);
     position:relative;
+    margin-bottom : 10px;
     
     &::after{
       content:'';

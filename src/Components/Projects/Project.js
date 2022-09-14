@@ -3,6 +3,8 @@ import ProjectCard from "./ProjectCard";
 import { Container, Wrapper, Heading, Work } from "./Project.style";
 import Farfetch from "../../Assets/FarFetch.png";
 import TrackingTime from "../../Assets/TrackingTime.png";
+import BangGood from '../../Assets/BangGood.png'
+import Uboric from '../../Assets/Uboric.png'
 import {FaHtml5 ,FaCss3Alt } from 'react-icons/fa'
 import {SiJavascript} from 'react-icons/si' 
 const stagger = {
@@ -92,9 +94,10 @@ const Project = () => {
           <p>Here are some of amazing work</p>
         </Heading>
         <Work>
+          
           <ProjectCard
             variant={imageVariant}
-            title='Farfetch clone'
+            title='Farfetch clone (Group)'
             src={Farfetch}
             link='https://github.com/Sumit-Gangwar/Farfetch-Project'
             link2='https://peaceful-stroopwafel-aba1de.netlify.app/'
@@ -103,13 +106,34 @@ const Project = () => {
          />
           <ProjectCard
             variant={imageVariant}
-            title='Tracking Time clone'
+            title='Tracking Time clone (Group)'
             src={TrackingTime}
             link='https://github.com/Randhir200/expert-hand-9078'
             link2='https://time-tracking-clone.netlify.app/'
             desc='This is an time tracking website clone that we made during the construct week at Masai School. You can put your daily tasks to do and also you can track your tasks by the website.. Fore more go to GitHub.'
             tech={['React' , 'Redux' , 'Chakra-UI']}
         />
+
+          <ProjectCard
+            variant={imageVariant}
+            title='Banggood clone (Group)'
+            src={BangGood}
+            link='https://github.com/Kunal-Ladhani/Banggood-Clone'
+            link2='https://banggood-clone-masai.netlify.app/'
+            desc='This is a e-commerce website clone that we made during the construct week at Masai School. It was completed within 6 days.'
+            tech={['HTML' , 'CSS' , 'JavaScript']}
+        />
+
+          <ProjectCard
+            variant={imageVariant}
+            title='Uboric clone (Individual)'
+            src={Uboric}
+            link='https://github.com/Kunal-Ladhani/Banggood-Clone'
+            link2='https://time-tracking-clone.netlify.app/'
+            desc='My individual Project based on react. I created this e-commmerce website clone in 4 days.'
+            tech={['React' , 'Tailwind' , 'Chakra-UI']}
+        />
+
           {/* <ProjectCard variant={imageVariant} />
           <ProjectCard variant={imageVariant} /> */}
         </Work>

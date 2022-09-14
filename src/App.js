@@ -87,7 +87,9 @@ function App() {
           <br />
           <p>Note : Use Double Click to open sidebar</p>
         </div>
-      ) : (
+      ) : 
+      
+      (
         <div className='app'>
           <Sidebar scroll={scrollContainer} />
           <div className='scroll' ref={scrollContainer}>
@@ -100,7 +102,8 @@ function App() {
             <Footer />
           </div>
         </div>
-      )}
+      )
+     }
     </>
   );
 }
