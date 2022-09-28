@@ -8,8 +8,6 @@ import useWindowSize from "../../hooks/useWindowSize";
 
 const ProjectCard = ({ variant, src, title, link, link2, desc, tech }) => {
   const size = useWindowSize();
-  console.log(size);
-
   return (
     <>
       <Card variants={variant}>
@@ -33,7 +31,7 @@ const ProjectCard = ({ variant, src, title, link, link2, desc, tech }) => {
               <VscLiveShare className="sIcon" style={{ fontSize: "20px" }} />
             </a>
           </div>
-          {size.width > 1446 && (
+          {size.width > 820 && (
             <>
               <li style={{ margin: "25px", fontSize: "1.5rem" }}>{desc}</li>
               <h3>TechStacks -</h3>

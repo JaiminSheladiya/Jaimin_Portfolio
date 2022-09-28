@@ -10,6 +10,7 @@ const Footer1 = styled.div`
   align-items: center;
   flex-direction: column;
   color: white;
+
 `;
 const SocialIcons = styled.div`
   margin-bottom: 20px;

@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { SkillDiv } from "./Skill.style";
-import { DiReact, DiHtml5, DiCss3 } from "react-icons/di";
+import { DiReact, DiHtml5, DiCss3 , DiJsBadge } from "react-icons/di";
 import { SiRedux } from "react-icons/si";
 import wave from "../../Assets/wave.png";
 const SkillCard = ({ x }) => {
@@ -40,13 +40,13 @@ const SkillCard = ({ x }) => {
           <DiCss3 className='Icon' style={{ color: "#1572B6" }} />
           <span className='skillName'>Css</span>
         </div>
-        <div className='skillIcon' onClick={() => handleClick(80, 900)}>
-          <DiReact className='Icon' style={{ color: "#00D8FF" }} />
-          <span className='skillName'>React.js</span>
-        </div>
         <div className='skillIcon' onClick={() => handleClick(75, 850)}>
-          <SiRedux className='Icon' style={{ color: "#764ABC" }} />
-          <span className='skillName'>Redux</span>
+          <DiJsBadge className='Icon' style={{ color: "#FDDA0D" , fontSize : '25px' }} />
+          <span className='skillName'>JS</span>
+        </div>
+        <div className='skillIcon' onClick={() => handleClick(80, 900)}>
+          <DiReact className='Icon' style={{ color: "#00D8FF"  }} />
+          <span className='skillName'>React.js</span>
         </div>
       </div>
       <div className='waves'>
