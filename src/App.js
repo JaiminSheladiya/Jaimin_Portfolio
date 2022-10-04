@@ -73,7 +73,7 @@ function App() {
 
   return (
     <>
-     {/* {loading ? (
+     {loading ? (
         <div className='loader'>
           <RingLoader
             color='#764ABC'
@@ -89,7 +89,7 @@ function App() {
         </div>
       ) : 
       
-      ( */}
+      (
         <div className='app'>
           <Sidebar scroll={scrollContainer} />
           {/* <div className="scroll" ref={scrollContainer}> */}
@@ -103,8 +103,8 @@ function App() {
           {/* </div> */}
 
         </div>
-      {/* )
-     }  */}
+      )
+     }  
      
 
 
